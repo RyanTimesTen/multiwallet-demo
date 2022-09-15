@@ -13,6 +13,7 @@ const Home = () => {
     primaryWallet,
     secondaryWallets,
     setPrimaryWallet,
+    multiWalletWidgetState,
   } = useDynamicContext();
 
   const handleSignMessage = async () => {
@@ -52,6 +53,10 @@ const Home = () => {
             ))}
           </div>
           <hr />
+          {multiWalletWidgetState === 'awaiting_account_switch' && (
+            <p>Switch accounts in your wallet</p>
+          )}
+          <hr />
           <div>
             <button onClick={handleSignMessage}>Sign Message</button>
           </div>
@@ -85,8 +90,9 @@ const App = () => (
       appLogoUrl:
         'https://upload.wikimedia.org/wikipedia/commons/3/34/Examplelogo.svg',
       appName: 'MultiWallet Demo',
-      environmentId: '61c0c677-e179-412f-9f63-17eccc670f6c',
-      apiBaseUrl: 'https://app.dynamic-preprod.xyz/api/v0',
+      environmentId: 'ad1fa4f8-5590-4297-90e3-362d86f43230',
+      apiBaseUrl: 'http://localhost:3333/api/v0',
+      multiWallet: true,
     }}
   >
     <Home />

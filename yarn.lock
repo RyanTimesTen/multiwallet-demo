@@ -213,31 +213,32 @@
     stream-browserify "^3.0.0"
     util "^0.12.4"
 
-"@dynamic-labs/multi-wallet@0.10.38":
-  version "0.10.38"
-  resolved "https://registry.yarnpkg.com/@dynamic-labs/multi-wallet/-/multi-wallet-0.10.38.tgz#3b00d5dd46d64dc8b1bc0f7f6867cba99bb9d2d7"
-  integrity sha512-6E8R9JgysyGD7cScYj/0yytM5cydQQ/6hOmU1FflQvxyF/gyXuiYukca+/GKILMraiLG9VK7BAEpqW6OoTzwug==
+"@dynamic-labs/multi-wallet@0.11.8":
+  version "0.11.8"
+  resolved "https://registry.yarnpkg.com/@dynamic-labs/multi-wallet/-/multi-wallet-0.11.8.tgz#749e027a6cc2705374c64edc11cd8a4ef3ec3461"
+  integrity sha512-+LH3KWME1u8A2/h6JrpclwFHpqLO1QUwTqt741qxxwYYhvu/kCQ3poYuRT1s4dcFtdfdzakGj5yhczI+xJ6ytw==
   dependencies:
     "@coinbase/wallet-sdk" "^3.4.0"
     "@onflow/fcl" "1.0.3-alpha.1"
+    "@randlabs/myalgo-connect" "^1.3.0"
     "@solana/web3.js" "^1.50.1"
     "@walletconnect/client" "^1.8.0"
     "@walletconnect/ethereum-provider" "^1.7.8"
     buffer "^6.0.3"
     ethers "^5.6.9"
 
-"@dynamic-labs/sdk-api@^0.0.61":
-  version "0.0.61"
-  resolved "https://registry.yarnpkg.com/@dynamic-labs/sdk-api/-/sdk-api-0.0.61.tgz#9b969ba3c84578cc55e48b39b195d36c9b9dbef3"
-  integrity sha512-Knb7oOlCvr8sR3P6m/K5bEoIF09KXkiJsMrxwOLBhxmbWa/IEARmutjGBoFVY1zifkAkkUPvSNnk1quzLxJCuQ==
+"@dynamic-labs/sdk-api@^0.0.72":
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/@dynamic-labs/sdk-api/-/sdk-api-0.0.72.tgz#23f573ecf7d2eef953e9f046ffef0067179f6e20"
+  integrity sha512-CDs7vXvEyDGbPMcSNxq6B3xj6uzD7AllDOQfDr2D8YVLpekrjePMjVr8klCku4icECexkuQPFGMF5A8aJx3fZA==
 
-"@dynamic-labs/sdk-react@^0.10.38":
-  version "0.10.38"
-  resolved "https://registry.yarnpkg.com/@dynamic-labs/sdk-react/-/sdk-react-0.10.38.tgz#a456138dbe31bf8d23936156bc417795eb427b98"
-  integrity sha512-F3cUfqgG8SZMOnsCyIRE/MN8Hc0apgTIDl9cZgHz/h40rYU4vOONhjBo6olXfVJX8yqnw0Qt2fRO3Hb5/Al9Xg==
+"@dynamic-labs/sdk-react@^0.11.8":
+  version "0.11.8"
+  resolved "https://registry.yarnpkg.com/@dynamic-labs/sdk-react/-/sdk-react-0.11.8.tgz#52f4bf5d1312e44913501a7fc6828ec6f58864cf"
+  integrity sha512-YxrmNPhD8MpezjGXgjYzU/UeP0eSPTyZM8MHLYY2tGIarCPgDwYAxJRQrdL3bNTv+m8uZdtjXQNVUR4qFw8L1g==
   dependencies:
-    "@dynamic-labs/multi-wallet" "0.10.38"
-    "@dynamic-labs/sdk-api" "^0.0.61"
+    "@dynamic-labs/multi-wallet" "0.11.8"
+    "@dynamic-labs/sdk-api" "^0.0.72"
     formik "^2.2.9"
     framer-motion "^6.4.2"
     qrcode "^1.5.0"
@@ -1035,6 +1036,18 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@pedrouid/environment/-/environment-1.0.1.tgz#858f0f8a057340e0b250398b75ead77d6f4342ec"
   integrity sha512-HaW78NszGzRZd9SeoI3JD11JqY+lubnaOx7Pewj5pfjqWXOEATpeKIFb9Z4t2WBUK2iryiXX3lzWwmYWgUL0Ug==
+
+"@randlabs/communication-bridge@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@randlabs/communication-bridge/-/communication-bridge-1.0.1.tgz#d1ecfc29157afcbb0ca2d73122d67905eecb5bf3"
+  integrity sha512-CzS0U8IFfXNK7QaJFE4pjbxDGfPjbXBEsEaCn9FN15F+ouSAEUQkva3Gl66hrkBZOGexKFEWMwUHIDKpZ2hfVg==
+
+"@randlabs/myalgo-connect@^1.3.0":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@randlabs/myalgo-connect/-/myalgo-connect-1.3.1.tgz#203c3c92caac718e75a6d0fe75063f938accd8d5"
+  integrity sha512-/s+DB5Q1QMnGyPRysPQYor5CNJfQ93uVCSlgO4wEn2HRN1/NOBbi2blyEUhOZWsfNDpM/0zRuBBA8gHcnemXDg==
+  dependencies:
+    "@randlabs/communication-bridge" "1.0.1"
 
 "@rushstack/eslint-patch@^1.1.3":
   version "1.1.3"
