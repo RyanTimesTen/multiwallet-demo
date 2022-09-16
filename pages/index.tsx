@@ -90,7 +90,7 @@ const App = () => (
       appLogoUrl:
         'https://upload.wikimedia.org/wikipedia/commons/3/34/Examplelogo.svg',
       appName: 'MultiWallet Demo',
-      environmentId: 'ad1fa4f8-5590-4297-90e3-362d86f43230',
+      environmentId: 'c3df6185-53f1-40fa-9309-0bfdbde6a1ab',
       apiBaseUrl: 'http://localhost:3333/api/v0',
       multiWallet: true,
     }}
