@@ -213,10 +213,10 @@
     stream-browserify "^3.0.0"
     util "^0.12.4"
 
-"@dynamic-labs/multi-wallet@0.11.11":
-  version "0.11.11"
-  resolved "https://registry.yarnpkg.com/@dynamic-labs/multi-wallet/-/multi-wallet-0.11.11.tgz#5afd656735da754bd0ef6c9f607afbfced3a7b21"
-  integrity sha512-aKOH0d8Q3DVeGfHxif/A4+Zn+91Go+kJaX8556kxtJkgPZ+10txpHPa1eKvDSP2sFiSnZtx53KDzPNrW4B6lJQ==
+"@dynamic-labs/multi-wallet@0.11.12":
+  version "0.11.12"
+  resolved "https://registry.yarnpkg.com/@dynamic-labs/multi-wallet/-/multi-wallet-0.11.12.tgz#009758c891f565d23810437f2dbc9ab544089635"
+  integrity sha512-ze5tNhzs2vdI2IFPicbdflNxKZENzRM1liX4FL0FMHypMZTdsu+KaSmFB7WOpqfcipO3nvXB5EyfCUkgHYGkmw==
   dependencies:
     "@coinbase/wallet-sdk" "^3.4.0"
     "@onflow/fcl" "1.2.1"
@@ -232,12 +232,12 @@
   resolved "https://registry.yarnpkg.com/@dynamic-labs/sdk-api/-/sdk-api-0.0.72.tgz#23f573ecf7d2eef953e9f046ffef0067179f6e20"
   integrity sha512-CDs7vXvEyDGbPMcSNxq6B3xj6uzD7AllDOQfDr2D8YVLpekrjePMjVr8klCku4icECexkuQPFGMF5A8aJx3fZA==
 
-"@dynamic-labs/sdk-react@^0.11.11":
-  version "0.11.11"
-  resolved "https://registry.yarnpkg.com/@dynamic-labs/sdk-react/-/sdk-react-0.11.11.tgz#99f797285353f98d142324ba48c12f83bca4c683"
-  integrity sha512-MdzDdxJ+Awp4iHln4YRaRG7amuI8MK79pLyXatupYDraIhfZtg0K0XMUElyycdNwZQrrJkLEk4SPGzUvPZYyKA==
+"@dynamic-labs/sdk-react@^0.11.12":
+  version "0.11.12"
+  resolved "https://registry.yarnpkg.com/@dynamic-labs/sdk-react/-/sdk-react-0.11.12.tgz#3eee8fbec60de0b50dda782f206408d0b0fdc384"
+  integrity sha512-7BHwulGfIdatIlCjqcM4fMpu5vd+f5sNAP5pcLw4hkKLjCp11vb715WDVCNeTlMhsVmziSY1tIuGHXrZHO79iQ==
   dependencies:
-    "@dynamic-labs/multi-wallet" "0.11.11"
+    "@dynamic-labs/multi-wallet" "0.11.12"
     "@dynamic-labs/sdk-api" "^0.0.72"
     formik "^2.2.9"
     framer-motion "^6.4.2"
