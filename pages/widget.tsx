@@ -8,7 +8,7 @@ const WidgetPage = () => {
           'https://upload.wikimedia.org/wikipedia/commons/3/34/Examplelogo.svg',
         appName: 'MultiWallet Demo',
         apiBaseUrl: 'http://localhost:3333/api/v0',
-        environmentId: '9c112252-d39a-4abd-93b9-4e164d8aa750',
+        environmentId: '67fa225a-47eb-4ecb-be55-ea74ad01cd3b',
         multiWallet: true,
       }}
     >

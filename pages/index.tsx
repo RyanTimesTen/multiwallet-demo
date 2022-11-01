@@ -1,6 +1,5 @@
 import {
   useDynamicContext,
-  DynamicAuthFlow,
   DynamicContextProvider,
 } from '@dynamic-labs/sdk-react';
 import { useEffect } from 'react';
@@ -116,7 +115,6 @@ const Home = () => {
             Log Out
           </button>
         </div>
-        <DynamicAuthFlow onAuthSuccess={() => window.location.assign('/')} />
       </>
     );
   }
@@ -126,7 +124,6 @@ const Home = () => {
       <button type='button' onClick={() => setShowAuthFlow(true)}>
         Connect With My Wallet
       </button>
-      <DynamicAuthFlow onAuthSuccess={() => window.location.assign('/')} />
     </div>
   );
 };
@@ -137,9 +134,8 @@ const App = () => (
       appLogoUrl:
         'https://upload.wikimedia.org/wikipedia/commons/3/34/Examplelogo.svg',
       appName: 'MultiWallet Demo',
-      environmentId: 'c3df6185-53f1-40fa-9309-0bfdbde6a1ab',
       apiBaseUrl: 'http://localhost:3333/api/v0',
-      multiWallet: true,
+      environmentId: '67fa225a-47eb-4ecb-be55-ea74ad01cd3b',
     }}
   >
     <Home />
